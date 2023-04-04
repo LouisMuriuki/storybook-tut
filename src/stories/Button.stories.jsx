@@ -41,11 +41,11 @@ Tall.args = {
 };
 export const Red = Template.bind({});
 Red.args = {
-  backgroundColor: 'red',
+  backgroundColor: 'orange',
 };
 Red.argTypes={
   backgroundColor:{
     control:'inline-radio',
-    options:['red','green','blue']
+    options:['orange','green','blue','yellow']
   }
 }
